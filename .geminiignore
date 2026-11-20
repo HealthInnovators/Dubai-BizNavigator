@@ -1,0 +1,2 @@
+# Read-only cloned reference repos - excluded so coding agents do not index or duplicate upstream library source
+reference_repos/

@@ -1,0 +1,353 @@
+[
+  {
+    "id": "case_01_saas_international",
+    "title": "B2B SaaS Platform (Pure International Clients)",
+    "input": {
+      "company_name": "CloudScale Analytics FZ-LLC",
+      "industry_sector": "Technology",
+      "business_activity": "Cloud Software Development & SaaS Analytics",
+      "revenue_model": "B2B_SaaS",
+      "uae_local_trade": false,
+      "visa_quota_needed": 3,
+      "office_preference": "FlexiDesk",
+      "founders_summary": "Two software architects from UK and Germany building developer analytics for EU/US clients."
+    },
+    "expected_output": {
+      "pathway": "FreeZone",
+      "recommended_authority": "IFZA",
+      "alternative_authorities": ["Dubai Internet City (DIC)", "DIFC Innovation Hub"],
+      "licence_type": "Commercial / Service",
+      "estimated_cost_aed_min": 12500,
+      "estimated_cost_aed_max": 25000,
+      "visa_capacity": 3,
+      "mainland_trading_notes": "Digital export of software to international clients requires zero physical mainland storefront. Qualifying Free Zone Person (QFZP) 0% corporate tax eligible.",
+      "required_compliance_checks": [
+        "Ultimate Beneficial Ownership (UBO) declaration",
+        "Economic Substance Regulations (ESR) notification assessment",
+        "Anti-Money Laundering (AML) / Counter-Terrorist Financing (CFT) screening"
+      ],
+      "expected_sources": [
+        "https://dubaidet.gov.ae",
+        "https://investindubai.gov.ae",
+        "https://www.ifza.com"
+      ],
+      "rationale": "Pure international export of digital software with no physical or commercial trading in mainland UAE qualifies for Free Zone incorporation with 100% foreign ownership and low overhead."
+    }
+  },
+  {
+    "id": "case_02_saas_uae_mainland",
+    "title": "Enterprise B2B SaaS for UAE Ministries and Local Enterprise Clients",
+    "input": {
+      "company_name": "Emirates AI Solutions LLC",
+      "industry_sector": "Technology",
+      "business_activity": "Enterprise Software Licensing & On-Premise Systems Integration",
+      "revenue_model": "B2B_SaaS",
+      "uae_local_trade": true,
+      "visa_quota_needed": 8,
+      "office_preference": "PhysicalOffice",
+      "founders_summary": "Founding partners contracting directly with UAE ministries, state-owned enterprises, and onshore banks."
+    },
+    "expected_output": {
+      "pathway": "Mainland_DET",
+      "recommended_authority": "DET",
+      "alternative_authorities": [],
+      "licence_type": "Commercial",
+      "estimated_cost_aed_min": 18000,
+      "estimated_cost_aed_max": 35000,
+      "visa_capacity": 8,
+      "mainland_trading_notes": "Direct contracting with UAE government bodies and onshore commercial enterprises requires Dubai DET mainland licensing with 100% foreign ownership.",
+      "required_compliance_checks": [
+        "100% Foreign Ownership commercial activity check under DET",
+        "Leased physical office Ejari registration in Dubai mainland",
+        "Ministry of Human Resources and Emiratisation (MOHRE) establishment card",
+        "Federal Tax Authority (FTA) Corporate Tax registration"
+      ],
+      "expected_sources": [
+        "https://dubaidet.gov.ae",
+        "https://investindubai.gov.ae"
+      ],
+      "rationale": "Direct onshore B2B commercial contracting, tenders, and integration services with UAE mainland and government entities necessitate a Dubai DET mainland licence."
+    }
+  },
+  {
+    "id": "case_03_fintech_wealthtech",
+    "title": "Regulated WealthTech & Algorithmic Asset Management Platform",
+    "input": {
+      "company_name": "Oasis Capital Technologies Ltd",
+      "industry_sector": "FinTech",
+      "business_activity": "Algorithmic Asset Management & Investment Advisory",
+      "revenue_model": "AUM_Fee",
+      "uae_local_trade": false,
+      "visa_quota_needed": 5,
+      "office_preference": "PhysicalOffice",
+      "founders_summary": "Ex-tier-1 investment bankers and quant developers launching an automated portfolio management service."
+    },
+    "expected_output": {
+      "pathway": "FreeZone",
+      "recommended_authority": "DIFC",
+      "alternative_authorities": ["ADGM"],
+      "licence_type": "Financial Services / Category 3C",
+      "estimated_cost_aed_min": 45000,
+      "estimated_cost_aed_max": 120000,
+      "visa_capacity": 5,
+      "mainland_trading_notes": "Regulated under Dubai Financial Services Authority (DFSA). Operates in independent English common-law jurisdiction with dual licensing capability to mainland if needed.",
+      "required_compliance_checks": [
+        "DFSA Regulatory Authorization Application",
+        "Appointment of Approved Persons (Compliance Officer and MLRO)",
+        "Regulatory Capital Adequacy and Prudential Risk Framework",
+        "Enhanced Customer Due Diligence (CDD) and AML/CFT Policies"
+      ],
+      "expected_sources": [
+        "https://www.difc.com",
+        "https://www.dfsa.ae",
+        "https://dubaidet.gov.ae"
+      ],
+      "rationale": "Managing investments and providing financial advice in or from Dubai requires common-law DIFC financial free zone jurisdiction under DFSA regulation."
+    }
+  },
+  {
+    "id": "case_04_fintech_payment_infrastructure",
+    "title": "Cross-Border Payment Gateway & Remittance Facilitator",
+    "input": {
+      "company_name": "BarqPay Solutions Ltd",
+      "industry_sector": "FinTech",
+      "business_activity": "Payment Gateway Processing & Cross-Border Money Services",
+      "revenue_model": "Transaction_Fee",
+      "uae_local_trade": false,
+      "visa_quota_needed": 6,
+      "office_preference": "PhysicalOffice",
+      "founders_summary": "Fintech engineering leads with extensive banking partner connectivity building GCC settlement rails."
+    },
+    "expected_output": {
+      "pathway": "FreeZone",
+      "recommended_authority": "DIFC",
+      "alternative_authorities": ["ADGM", "Dubai Internet City"],
+      "licence_type": "Money Services / Category 4",
+      "estimated_cost_aed_min": 50000,
+      "estimated_cost_aed_max": 150000,
+      "visa_capacity": 6,
+      "mainland_trading_notes": "DFSA Innovation Testing Licence (ITL) or Category 4 authorization. Direct onshore UAE retail payments may additionally require CBUAE SVF coordination.",
+      "required_compliance_checks": [
+        "DFSA Category 4 Money Services Licence / Regulatory Sandbox",
+        "Safeguarding of Client Funds Account Segregation Agreement",
+        "Sanctions Screening and Suspicious Transaction Reporting (STR) protocols",
+        "CBUAE Regulatory Consultation for domestic settlement"
+      ],
+      "expected_sources": [
+        "https://www.difc.com",
+        "https://www.dfsa.ae"
+      ],
+      "rationale": "Operating financial payment rails and money transmission services from Dubai requires DIFC financial regulatory sandbox or category authorization from DFSA."
+    }
+  },
+  {
+    "id": "case_05_ecommerce_mainland_warehouse",
+    "title": "Omnichannel D2C E-Commerce with Onshore Warehouse & Logistics",
+    "input": {
+      "company_name": "Nomad Living Goods LLC",
+      "industry_sector": "E-Commerce",
+      "business_activity": "General Trading & Onshore Warehousing/Fulfillment",
+      "revenue_model": "D2C_Ecommerce",
+      "uae_local_trade": true,
+      "visa_quota_needed": 10,
+      "office_preference": "Warehousing",
+      "founders_summary": "Consumer brand founders stocking physical home goods inventory in Dubai for next-day UAE and GCC delivery."
+    },
+    "expected_output": {
+      "pathway": "Mainland_DET",
+      "recommended_authority": "DET",
+      "alternative_authorities": [],
+      "licence_type": "Commercial General Trading",
+      "estimated_cost_aed_min": 25000,
+      "estimated_cost_aed_max": 48000,
+      "visa_capacity": 10,
+      "mainland_trading_notes": "Requires Dubai Customs Client Code registration and physical warehouse Ejari (e.g. Al Quoz or Dubai South) for domestic delivery and customs clearance.",
+      "required_compliance_checks": [
+        "Dubai Customs Client Code Registration",
+        "Dubai Civil Defence (DCD) / Municipality safety clearance for warehouse lease",
+        "Leased Warehouse Ejari in Dubai mainland",
+        "Federal Tax Authority (FTA) Mandatory VAT Registration (>375k AED threshold)"
+      ],
+      "expected_sources": [
+        "https://dubaidet.gov.ae",
+        "https://investindubai.gov.ae"
+      ],
+      "rationale": "Holding onshore physical inventory, operating warehouse fulfillment, and directly selling physical goods across UAE mainland necessitates a Dubai DET Commercial license with Customs Code."
+    }
+  },
+  {
+    "id": "case_06_ecommerce_instant_licence",
+    "title": "Fast-Track Digital E-Commerce Agency (No Initial Physical Lease in Year 1)",
+    "input": {
+      "company_name": "SwiftCart Digital LLC",
+      "industry_sector": "E-Commerce",
+      "business_activity": "E-Commerce Portal Management & Digital Marketing Services",
+      "revenue_model": "Marketplace_Commission",
+      "uae_local_trade": true,
+      "visa_quota_needed": 2,
+      "office_preference": "FlexiDesk",
+      "founders_summary": "Solo founder needing fast incorporation to launch local digital commerce agency without committing to physical lease upfront."
+    },
+    "expected_output": {
+      "pathway": "Mainland_DET",
+      "recommended_authority": "DET",
+      "alternative_authorities": [],
+      "licence_type": "DET Instant Licence",
+      "estimated_cost_aed_min": 14000,
+      "estimated_cost_aed_max": 22000,
+      "visa_capacity": 2,
+      "mainland_trading_notes": "Eligible for DET Instant Licence: issued in one step without initial MOA or Ejari required for the first year. Physical Ejari required upon Year 2 renewal.",
+      "required_compliance_checks": [
+        "Instant Licence eligibility screening for commercial/professional activities",
+        "UBO Declaration filing within 60 days of issuance",
+        "MOHRE Establishment card activation for visa allocation",
+        "Year 2 Ejari compliance transition roadmap"
+      ],
+      "expected_sources": [
+        "https://dubaidet.gov.ae",
+        "https://investindubai.gov.ae"
+      ],
+      "rationale": "Dubai DET Instant Licence provides immediate 1-day issuance without upfront lease (Ejari) or MOA signing for qualified commercial and professional activities."
+    }
+  },
+  {
+    "id": "case_07_ecommerce_crossborder_freezone",
+    "title": "Cross-Border Dropshipping & Digital Asset Commerce",
+    "input": {
+      "company_name": "SilkRoad Commerce FZCO",
+      "industry_sector": "E-Commerce",
+      "business_activity": "Cross-Border E-Commerce & Third-Party Marketplace Trading",
+      "revenue_model": "Ecommerce_Dropship",
+      "uae_local_trade": false,
+      "visa_quota_needed": 2,
+      "office_preference": "FlexiDesk",
+      "founders_summary": "Digital entrepreneurs selling overseas products fulfilled directly from East Asia to European and US buyers."
+    },
+    "expected_output": {
+      "pathway": "FreeZone",
+      "recommended_authority": "Dubai_CommerCity",
+      "alternative_authorities": ["IFZA", "Meydan Free Zone"],
+      "licence_type": "E-Commerce / Commercial",
+      "estimated_cost_aed_min": 13000,
+      "estimated_cost_aed_max": 24000,
+      "visa_capacity": 2,
+      "mainland_trading_notes": "Non-local dropshipping without domestic customs clearance is cost-optimized in an e-commerce Free Zone. No mainland physical shop permitted without local distributor.",
+      "required_compliance_checks": [
+        "Free Zone Customs Pass / Transit registration",
+        "Corporate Tax Qualifying Free Zone Person (QFZP) criteria check",
+        "UBO Register filing"
+      ],
+      "expected_sources": [
+        "https://dubaidet.gov.ae",
+        "https://www.commercity.ae",
+        "https://investindubai.gov.ae"
+      ],
+      "rationale": "Non-local dropshipping without domestic customs clearance is cost-optimized in an e-commerce Free Zone such as Dubai CommerCity or IFZA."
+    }
+  },
+  {
+    "id": "case_08_commodities_precious_metals",
+    "title": "Physical Gold, Bullion, and Precious Stones Trading House",
+    "input": {
+      "company_name": "Aurum Global Vault DMCC",
+      "industry_sector": "Commodities",
+      "business_activity": "Wholesale Trading of Refined Gold, Bullion, and Precious Stones",
+      "revenue_model": "Wholesale_Spread",
+      "uae_local_trade": false,
+      "visa_quota_needed": 6,
+      "office_preference": "PhysicalOffice",
+      "founders_summary": "Institutional bullion traders and vault operators establishing regional metals desk in Dubai."
+    },
+    "expected_output": {
+      "pathway": "FreeZone",
+      "recommended_authority": "DMCC",
+      "alternative_authorities": [],
+      "licence_type": "Precious Metals Trading",
+      "estimated_cost_aed_min": 35000,
+      "estimated_cost_aed_max": 85000,
+      "visa_capacity": 6,
+      "mainland_trading_notes": "Precious metals and diamond trading is concentrated within DMCC, which provides specialized vaults, Tradeflow warrant financing, and specific regulatory oversight.",
+      "required_compliance_checks": [
+        "DMCC Tradeflow Enrollment and Compliance",
+        "High-Risk AML/CFT Dealer in Precious Metals & Stones (DPMS) registration",
+        "goAML Registration with UAE Financial Intelligence Unit (FIU)",
+        "Annual Audited Financial Statements submission"
+      ],
+      "expected_sources": [
+        "https://www.dmcc.ae",
+        "https://dubaidet.gov.ae"
+      ],
+      "rationale": "Precious metals and diamond trading is concentrated within DMCC, which provides specialized vaults, Tradeflow warrant financing, and specific regulatory oversight."
+    }
+  },
+  {
+    "id": "case_09_commodities_energy_brokerage",
+    "title": "Energy & Agricultural Commodities International Brokerage",
+    "input": {
+      "company_name": "Equator Energy Commodities DMCC",
+      "industry_sector": "Commodities",
+      "business_activity": "Crude Oil Derivatives Brokerage & Agricultural Bulk Shipments",
+      "revenue_model": "Brokerage_Commission",
+      "uae_local_trade": false,
+      "visa_quota_needed": 4,
+      "office_preference": "PhysicalOffice",
+      "founders_summary": "Energy trading specialists structuring cargo transactions and off-take contracts across Middle East and Asia."
+    },
+    "expected_output": {
+      "pathway": "FreeZone",
+      "recommended_authority": "DMCC",
+      "alternative_authorities": ["DIFC"],
+      "licence_type": "Commodities Brokerage",
+      "estimated_cost_aed_min": 28000,
+      "estimated_cost_aed_max": 65000,
+      "visa_capacity": 4,
+      "mainland_trading_notes": "International commodities brokerage and energy shipping contracts are centered at DMCC due to industry cluster benefits and recognized international contracts.",
+      "required_compliance_checks": [
+        "Sanctions & Maritime Counterparty Due Diligence Framework",
+        "DMCC Member Registration and Trade Guidelines compliance",
+        "UBO Declaration filing",
+        "Commercial Lease in JLT (Jumeirah Lakes Towers)"
+      ],
+      "expected_sources": [
+        "https://www.dmcc.ae",
+        "https://dubaidet.gov.ae"
+      ],
+      "rationale": "International commodities brokerage and energy shipping contracts are centered at DMCC due to industry cluster benefits and recognized international contracts."
+    }
+  },
+  {
+    "id": "case_10_ai_deeptech_innovation",
+    "title": "DeepTech AI Research & Foundation Model Engineering Lab",
+    "input": {
+      "company_name": "Cortex AI Innovations Ltd",
+      "industry_sector": "Technology",
+      "business_activity": "Artificial Intelligence Research & Enterprise Model Fine-Tuning",
+      "revenue_model": "Licensing_API",
+      "uae_local_trade": false,
+      "visa_quota_needed": 5,
+      "office_preference": "FlexiDesk",
+      "founders_summary": "Machine learning PhDs seeking intellectual property protection and talent visa incentives."
+    },
+    "expected_output": {
+      "pathway": "FreeZone",
+      "recommended_authority": "DIFC",
+      "alternative_authorities": ["DIFC Innovation Hub", "Dubai Internet City (DIC)"],
+      "licence_type": "Innovation / Commercial",
+      "estimated_cost_aed_min": 15000,
+      "estimated_cost_aed_max": 30000,
+      "visa_capacity": 5,
+      "mainland_trading_notes": "DIFC Innovation Hub provides subsidized tech licenses, high-caliber talent visa quotas, and international common-law IP protection for advanced AI startups.",
+      "required_compliance_checks": [
+        "DIFC Innovation Hub License Grant Eligibility Assessment",
+        "UAE Golden Visa Sponsorship Nomination for Key Scientists",
+        "Intellectual Property Assignment and Data Protection Law adherence",
+        "UBO Register declaration"
+      ],
+      "expected_sources": [
+        "https://www.difc.com",
+        "https://dubaidet.gov.ae"
+      ],
+      "rationale": "DIFC Innovation Hub provides subsidized tech licenses, high-caliber talent visa quotas, and international common-law IP protection for advanced AI startups."
+    }
+  }
+]

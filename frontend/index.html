@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dubai BizNavigator — Autonomous UAE Formation &amp; Licensing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/styles/main.css" />
+  </head>
+  <body>
+    <div id="app" class="app-layout">
+      <!-- Executive Navbar -->
+      <header class="navbar">
+        <div class="brand">
+          <div class="brand-crest">🇦🇪</div>
+          <div class="brand-titles">
+            <div class="brand-name">
+              <span class="gold-text">Dubai</span> BizNavigator
+            </div>
+            <div class="brand-subtitle">
+              Autonomous Corporate Formation, Licensing &amp; Banking Orchestration
+            </div>
+          </div>
+        </div>
+
+        <div class="header-actions">
+          <button id="alerts-btn" class="pill-btn alerts-pill" title="View UAE Regulatory Alerts">
+            <span class="pill-icon">🔔</span>
+            <span class="pill-label">Regulatory Alerts</span>
+            <span id="alerts-badge" class="badge-counter">0</span>
+          </button>
+
+          <div id="session-pill" class="pill-btn session-pill" title="Active Workspace">
+            <span class="pill-icon">🏢</span>
+            <span id="session-id-display">Initializing...</span>
+          </div>
+
+          <div id="system-status" class="pill-btn status-pill status-connecting">
+            <span class="status-dot"></span>
+            <span id="system-status-text">Connecting...</span>
+          </div>
+        </div>
+      </header>
+
+      <!-- Main 3-Panel Dashboard Layout -->
+      <main class="dashboard-grid">
+        <!-- Left Panel: Subagent Swarm Live Timeline & Activity Log -->
+        <aside class="sidebar-panel">
+          <div class="panel-card swarm-card">
+            <div class="card-header">
+              <div class="header-title-group">
+                <h3>Autonomous Subagent Swarm</h3>
+                <span class="agent-count-badge">5 DeepAgents</span>
+              </div>
+              <p class="card-caption">LangGraph Orchestrated Subagent Specialists</p>
+            </div>
+
+            <div id="subagent-timeline" class="subagent-timeline">
+              <!-- Dynamically populated with KNOWN_SUBAGENTS -->
+            </div>
+          </div>
+
+          <div class="panel-card activity-card">
+            <div class="card-header">
+              <h3>Live Event Stream</h3>
+              <button id="clear-events-btn" class="text-btn" title="Clear event log">Clear</button>
+            </div>
+            <div id="events-log" class="events-log">
+              <div class="event-entry event-system">
+                <span class="event-time">--:--:--</span>
+                <span class="event-body">Awaiting session initialization...</span>
+              </div>
+            </div>
+          </div>
+        </aside>
+
+        <!-- Center Workspace: Dynamic A2UI Surface Container -->
+        <section class="workspace-panel">
+          <div class="workspace-header">
+            <div class="workspace-title-box">
+              <span class="workspace-label">A2UI Declarative Interface</span>
+              <h2 id="surface-title">Startup Profile &amp; Formation Intake</h2>
+            </div>
+            <div class="workspace-tools">
+              <button id="refresh-alerts-btn" class="tool-btn" title="Check Regulatory Updates">
+                <span>🔔 Alerts</span>
+              </button>
+              <button id="export-artifacts-btn" class="tool-btn" title="View Workspace Artifacts">
+                <span>📁 Artifacts</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- A2UI Surface Root -->
+          <div id="a2ui-surface-root" class="surface-root">
+            <!-- Dynamically rendered A2UI surfaces -->
+          </div>
+
+          <!-- Bottom Follow-up Input Bar -->
+          <div class="chat-bar-container">
+            <div class="quick-prompts">
+              <span class="quick-label">Quick Actions:</span>
+              <button class="quick-btn" data-prompt="Evaluate DET Mainland vs IFZA Free Zone for B2B SaaS startup.">
+                ⚖️ Mainland vs Free Zone
+              </button>
+              <button class="quick-btn" data-prompt="Generate complete registration payload and shareholding structure for DET.">
+                📝 Registration Payload
+              </button>
+              <button class="quick-btn" data-prompt="Draft banking readiness package with 12-month financial projections.">
+                🏦 Banking KYB Dossier
+              </button>
+              <button class="quick-btn" data-prompt="Perform zero-PII compliance and regulatory audit.">
+                🛡️ Compliance Audit
+              </button>
+            </div>
+
+            <form id="chat-form" class="chat-form">
+              <div class="input-wrapper">
+                <textarea
+                  id="user-input"
+                  rows="1"
+                  placeholder="Ask BizNavigator to adjust requirements, compare Free Zones, or approve HITL filing..."
+                ></textarea>
+              </div>
+              <button type="submit" id="send-btn" class="send-btn" title="Send instruction to agent orchestrator">
+                <span class="btn-text">Send</span>
+                <span class="btn-icon">➔</span>
+              </button>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <!-- Regulatory Alerts Modal -->
+      <div id="alerts-modal" class="modal-backdrop hidden">
+        <div class="modal-card">
+          <div class="modal-header">
+            <h3>🔔 UAE Regulatory &amp; Compliance Alerts</h3>
+            <button id="close-alerts-modal-btn" class="modal-close">&times;</button>
+          </div>
+          <div id="alerts-modal-content" class="modal-body">
+            <p class="text-muted">Loading regulatory alerts...</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Artifacts Modal -->
+      <div id="artifacts-modal" class="modal-backdrop hidden">
+        <div class="modal-card">
+          <div class="modal-header">
+            <h3>📁 Generated Workspace Artifacts</h3>
+            <button id="close-artifacts-modal-btn" class="modal-close">&times;</button>
+          </div>
+          <div id="artifacts-modal-content" class="modal-body">
+            <p class="text-muted">No artifacts generated yet in session workspace.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
