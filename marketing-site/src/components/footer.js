@@ -29,9 +29,6 @@ export function renderFooter() {
             <p>
               Autonomous business setup copilot, AI jurisdiction optimizer, and bank-ready preparation engine for founders expanding to the United Arab Emirates.
             </p>
-            <div class="footer-competition-badge">
-              <span>🏆 Official Entrant: Dubai Chamber Create AI Agents Championship</span>
-            </div>
           </div>
 
           <!-- Official Dubai Government & Authority Resources -->

@@ -47,13 +47,6 @@ export const siteConfig = {
     }
   },
   trustStrip: {
-    chamberCompetition: {
-      title: "Dubai Chamber of Digital Economy",
-      initiative: "Create AI Agents Championship",
-      category: "Best Business AI Agent Entrant",
-      url: "https://www.dubaichamberdigital.com/en/create-ai-agents",
-      badgeText: "Chamber AI Championship Entrant"
-    },
     callouts: [
       {
         title: "Free Zone vs. DET Mainland Analysis",
