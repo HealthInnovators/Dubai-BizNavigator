@@ -4,6 +4,7 @@
 
 export const siteConfig = {
   name: "Dubai BizNavigator",
+  contactEmail: "hi@bnav.site",
   wordmark: {
     prefix: "Dubai",
     highlight: "BizNavigator",

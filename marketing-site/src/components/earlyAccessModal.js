@@ -84,8 +84,12 @@ export function renderEarlyAccessModal() {
             </svg>
           </div>
           <h3>You're on the Priority List!</h3>
-          <p style="margin-top: 0.5rem; margin-bottom: 1.5rem;">
+          <p style="margin-top: 0.5rem; margin-bottom: 1rem;">
             Thank you for registering. Our team has reserved your AED 2,500 fee credit and will send your private platform credentials shortly.
+          </p>
+          <p style="font-size: var(--text-xs); color: var(--color-white-subtle); margin-bottom: 1.5rem;">
+            For immediate inquiries, feel free to reach us at
+            <a href="mailto:${siteConfig.contactEmail}" style="color: var(--color-gold); font-weight: 600; text-decoration: none;">${siteConfig.contactEmail}</a>.
           </p>
           <button type="button" class="btn btn-secondary" id="modal-done-btn" style="width: 100%;">
             Return to Overview

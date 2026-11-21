@@ -4,6 +4,8 @@
  * and clean inline async confirmation.
  */
 
+import { siteConfig } from '../data/content.js';
+
 export function renderWaitlistForm() {
   return `
     <section id="waitlist" class="waitlist-section" aria-labelledby="waitlist-title">
@@ -58,6 +60,11 @@ export function renderWaitlistForm() {
                     <strong>Tier-1 Corporate Banking Fast-Track:</strong> Pre-cleared AML/KYC checklist for Wio, Emirates NBD, and Mashreq NeoBiz.
                   </div>
                 </div>
+              </div>
+
+              <div class="waitlist-direct-contact" style="margin-top: 1.75rem; padding-top: 1.25rem; border-top: 1px solid rgba(255, 255, 255, 0.08); font-size: var(--text-xs); color: var(--color-white-subtle);">
+                Have questions or custom partnership inquiries? Reach our advisory team directly at
+                <a href="mailto:${siteConfig.contactEmail}" style="color: var(--color-gold); font-weight: 600; text-decoration: none; margin-left: 0.25rem;">${siteConfig.contactEmail}</a>
               </div>
             </div>
 

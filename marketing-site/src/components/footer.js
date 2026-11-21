@@ -29,6 +29,16 @@ export function renderFooter() {
             <p>
               Autonomous business setup copilot, AI jurisdiction optimizer, and bank-ready preparation engine for founders expanding to the United Arab Emirates.
             </p>
+            <div class="footer-contact-info" style="margin-top: 1.25rem;">
+              <span style="font-size: var(--text-xs); color: var(--color-white-subtle); display: block; margin-bottom: 0.35rem; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600;">Contact & Inquiries:</span>
+              <a href="mailto:${siteConfig.contactEmail}" class="footer-contact-link" style="color: var(--color-gold); text-decoration: none; font-size: var(--text-sm); font-weight: 600; display: inline-flex; align-items: center; gap: 0.5rem;">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                <span>${siteConfig.contactEmail}</span>
+              </a>
+            </div>
           </div>
 
           <!-- Official Dubai Government & Authority Resources -->
@@ -104,6 +114,8 @@ export function renderFooter() {
           </div>
           <div class="footer-bottom-links">
             <span>Sovereignty-Engineered in Dubai, United Arab Emirates</span>
+            <span class="sep">•</span>
+            <a href="mailto:${siteConfig.contactEmail}">Contact: ${siteConfig.contactEmail}</a>
             <span class="sep">•</span>
             <a href="#security">Data Privacy Policy</a>
             <span class="sep">•</span>
