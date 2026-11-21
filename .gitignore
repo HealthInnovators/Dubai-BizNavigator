@@ -48,6 +48,8 @@ htmlcov/
 node_modules/
 dist/
 dist-ssr/
+marketing-site/node_modules/
+marketing-site/dist/
 *.local
 npm-debug.log*
 yarn-debug.log*
