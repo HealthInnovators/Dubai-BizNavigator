@@ -5,21 +5,21 @@
 
 :root {
   /* Brand Core Palette */
-  --color-navy: #0B132B;          /* Deep navy base background */
-  --color-navy-dark: #070B1A;     /* Ultra deep navy for accents & footer */
-  --color-navy-light: #121E42;    /* Navy surface highlight */
+  --color-navy: #080B11;          /* Deep obsidian carbon base canvas */
+  --color-navy-dark: #04060A;     /* Ultra-deep obsidian for footer & backdrops */
+  --color-navy-light: #0E1422;    /* Surface transition highlight */
   
-  --color-slate: #1C2541;         /* Primary container & card surface */
-  --color-slate-elevated: #232F52;/* Hover and elevated states */
-  --color-slate-muted: #3A506B;   /* Borders, dividers, subtle tags */
+  --color-slate: #121827;         /* Primary sleek card & container surface */
+  --color-slate-elevated: #182236;/* Hover and elevated states */
+  --color-slate-muted: #263550;   /* Borders, dividers, subtle tags */
   --color-slate-subtle: #475569;  /* Secondary icon & indicator color */
   
-  --color-gold: #C9A227;          /* Dubai gold accent (WCAG > 4.5:1 on navy/slate) */
-  --color-gold-hover: #D8B237;    /* Interactive hover gold */
-  --color-gold-active: #B28E1D;   /* Interactive active gold */
-  --color-gold-light: #F5E6B3;    /* Light gold tint for soft badges */
-  --color-gold-glow: rgba(201, 162, 39, 0.28);
-  --color-gold-subtle: rgba(201, 162, 39, 0.12);
+  --color-gold: #F59E0B;          /* Radiant Modern Cyber Gold / Solar Amber (WCAG > 8:1) */
+  --color-gold-hover: #FBBF24;    /* Interactive hover gold */
+  --color-gold-active: #D97706;   /* Interactive active gold */
+  --color-gold-light: #FEF3C7;    /* Light gold tint for soft badges */
+  --color-gold-glow: rgba(245, 158, 11, 0.35);
+  --color-gold-subtle: rgba(245, 158, 11, 0.12);
 
   --color-white: #F8FAFC;         /* Crisp off-white (primary body & heading text) */
   --color-white-muted: #CBD5E1;   /* Off-white secondary text (WCAG > 7:1 on navy) */

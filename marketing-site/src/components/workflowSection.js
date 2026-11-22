@@ -403,7 +403,7 @@ export function initWorkflowSection() {
         hitlBtn.textContent = 'Filing Signed-Off ✓';
         hitlBtn.style.background = '#10B981';
         hitlBtn.style.borderColor = '#10B981';
-        hitlBtn.style.color = '#0B132B';
+        hitlBtn.style.color = '#080B11';
         hitlStatusText.textContent = 'APPROVED: Ready for Authorized Submission';
         hitlStatusText.style.color = '#10B981';
         hitlBadge.innerHTML = `
